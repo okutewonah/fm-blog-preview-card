@@ -12,6 +12,9 @@ module.exports = {
       fontFamily: {
         Figtree: ["Figtree", "sans-serif"],
       },
+      boxShadow: {
+        "3xl": "16px 10px 0px 0px hsl(0, 0%, 7%)",
+      },
     },
   },
   plugins: [],
