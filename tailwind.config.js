@@ -8,7 +8,11 @@ module.exports = {
       black: "hsl(0, 0, 7%)",
       white: "hsl(0, 0%, 100%)",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        Figtree: ["Figtree", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

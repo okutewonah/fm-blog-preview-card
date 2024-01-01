@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Figtree;
+    font-weight: 600 800;
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("ttf")
+      tech("variations");
+  }
+}

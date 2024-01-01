@@ -444,6 +444,15 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: Figtree;
+
+  font-weight: 600 800;
+
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("ttf")
+      tech("variations");
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -544,18 +553,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.mt-\[1\.5rem\] {
-  margin-top: 1.5rem;
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .mt-2 {
@@ -566,28 +571,32 @@ video {
   margin-top: 1rem;
 }
 
-.flex {
-  display: flex;
+.mt-\[1\.5rem\] {
+  margin-top: 1.5rem;
 }
 
-.h-\[500px\] {
-  height: 500px;
+.flex {
+  display: flex;
 }
 
 .h-\[2rem\] {
   height: 2rem;
 }
 
+.h-\[500px\] {
+  height: 500px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
 
-.w-\[340px\] {
-  width: 340px;
-}
-
 .w-20 {
   width: 5rem;
+}
+
+.w-\[340px\] {
+  width: 340px;
 }
 
 .flex-col {
@@ -606,22 +615,22 @@ video {
   justify-content: center;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
 
-.bg-yellow {
-  --tw-bg-opacity: 1;
-  background-color: hsl(47 88% 63% / var(--tw-bg-opacity));
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-yellow {
+  --tw-bg-opacity: 1;
+  background-color: hsl(47 88% 63% / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -630,6 +639,10 @@ video {
 
 .p-\[7px\] {
   padding: 7px;
+}
+
+.font-Figtree {
+  font-family: Figtree, sans-serif;
 }
 
 .text-sm {
@@ -642,12 +655,12 @@ video {
   line-height: 1.75rem;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-black {
